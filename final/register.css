@@ -1,0 +1,278 @@
+
+
+.header {
+	width: 30%;
+	margin: 50px auto 0;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+}
+
+form {
+	width: 30%;
+	margin: 0 auto;
+	padding: 20px;
+	background: white;
+	position: relative;
+}
+
+.content {
+	float: right;
+	background: white;
+	padding: 20px;
+	font-family: 'Press Start 2P', cursive;
+	position: relative;
+}
+
+.input-group {
+	margin: 10px 0 10px 0;
+	position: inherit;
+}
+
+.input-group label {
+	display: block;
+	text-align: center;
+	margin: 3px;
+}
+
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	color: black;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.error {
+	width: 92%;
+	margin: 0 auto;
+	padding: 10px;
+	border: 1px solid orange;
+	color: #a94442;
+	background: #f2dede;
+	border-radius: 5px;
+	text-align: left;
+}
+
+.success {
+	color: black;
+	background: navy;
+	border: 1px solid blue;
+	margin-bottom: 20px;
+}
+
+
+
+/*animation typewriter*/
+.line-1{
+	font-family: 'Audiowide', cursive; 
+    position: inherit;
+    top: 50%;  
+    color: white;
+    mix-blend-mode: difference;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 280%;
+    text-align: center;
+    white-space: pre;
+    overflow: hidden;
+    transform: translateY(-350%) translateX(-100%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 9em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: gray;}
+  to{border-right-color: transparent;}
+}
+
+
+i {
+	cursor: pointer;
+}
+
+.mySlides {
+	width: 80%;
+	height: auto;
+	padding: 10%;
+	position: inherit;
+	margin-left: 10%;
+}
+
+.name {
+	float: left;
+	position: fixed;
+	font-family: 'Press Start 2P', cursive;
+	padding-left: 5%;
+	margin-top: 50px;
+	font-size:3vw;
+	border-right: .15em solid orange;
+	white-space: nowrap;
+	width: 7.3em;
+	overflow: hidden;
+    opacity: 0;
+	-webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+	animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.sidenav {
+	float: left;
+	position: fixed;
+	padding-top: 10%;
+}
+
+.sidenav:hover {
+	opacity: 1;
+}
+.sidenav i {
+    position: relative;
+    left: -50px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    color: gray;
+}
+
+.sidenav i:hover {
+    left: 0; 
+    color: black;
+}
+
+.fas {
+    font-size: 4em;
+}
+
+.fas-fa-home {
+	top: 20%;
+}
+
+.fas-fa-gamepad {
+	top: 80px;
+}
+
+.fas-fa-user {
+    top: 140px;
+}
+
+.fas-fa-shopping-cart {
+    top: 200px;
+}
+
+.images {
+	
+	padding-bottom: 1%;
+	width:100vw;
+	height: auto;
+	border:0;
+}
+
+.fa {
+	font-size: 35px;
+	color: white;
+}
+
+.dropdown .dropdown-content .fa:hover {
+	left: 15%;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+a {
+	font-size: 15px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: inherit;
+    background-color: inherit;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: inherit;
+}
+
+

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html, body {
+	margin :0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.name{
+	float: left;
+	position: fixed;
+	font-size: 40px;
+	font-family: 'Press Start 2P', cursive;
+	padding-left: 5%;
+	margin-top: 100px;
+	list-style: none;
+	text-decoration: none;
+	color: Black;
+
+
+
+
+
+}
+
+
+.intro {
+	height: 80%;
+	width: 100%;
+	/*margin:auto;*/
+	background: url(https://media.playstation.com/is/image/SCEA/playstation-4-slim-vertical-product-shot-01-us-07sep16?$native_md_t$)no-repeat 10% 30%;
+	display: table;
+	
+	
+	/*background-size: cover;*/
+
+	
+
+
+}
+.intro .inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+
+}
+.content {
+max-width: 600%;
+margin:0 auto;
+text-align: center;
+padding-bottom: 20%;
+}
+.content h1 {
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 300%;
+	font-weight: bolder;
+	color: #363636;
+	text-decoration: none;
+
+	
+}
+.logo {
+	height: 30px;
+	width:60px 
+	cursor: pointer;
+	background-color: Black;
+	/*float: left;*/
+	/*position: fixed ;*/
+	margin-bottom: 60%;
+	margin-left: 60%;
+	margin-right: 10%;
+	margin-top: 50%;
+
+}
+
+
+
+
+
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+.content{
+	padding-bottom: 30%;
+}
+ .content h1{
+
+font-size: 450%;
+}
+
+}
+ .only{
+ 	text-align: center;
+ 	font-family: apple, sans-serif;
+ 	color: #363636;
+ 	padding-top:0%;
+ 	font-size: 150%;
+ 	font-weight: normal;	
+ }
+ .war{
+ 	width: 80vw;
+ 	margin-left: 10%;
+ }
+ .slim{
+  	margin-left: 25%;
+ 	width: 100vh;
+ 	text-align: center;
+ 	padding-bottom: 5%;
+
+ }
+.specs{
+	margin-top: 0%;
+	text-align: center;
+ 	font-family: apple, sans-serif;
+ 	/*margin-bottom: 5%;*/
+ 	font-weight: normal;
+ 	font-size: 150%;
+ 	margin-bottom: 10px;
+ 	color: #363636;
+ 	
+}
+@media screen and (max-width: 768px) {
+	.content{
+	padding-bottom: 40%;
+}
+ .content h1{
+
+font-size: 300%;
+}
+
+  
+  
+	
+}
+.Horizon{
+text-align: center;
+ 	font-family: apple, sans-serif;
+ 	
+ 	font-weight: normal;
+ 	font-size: 150%;
+ 	background-color: MetalEarth;
+ 	color: #363636;
+}
+.Hori{
+	width: 170vh;
+	margin-left: 7%;
+}
+.last {
+font-size: 1rem;
+font-weight: normal;
+line-height: 1.5;
+color: #363636;
+font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+
+}
+.adv{
+	text-align: center;
+ 	font-family: apple, sans-serif;
+ 	margin-top: -20%;
+ 	font-weight: normal;
+ 	font-size: 150%;
+ 	background-color: MetalEarth;
+ 	color: #363636;
+
+}
+.div{
+	width: 100%;
+	margin-bottom: 10%;
+	margin-top: 0%;
+}
+.set{
+	color: #363636;
+    font-size: 1.17em;
+    margin-left: 10%;
+    font-family: 'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif;
+}
+.head{
+	color: #363636;
+    font-size: .813em;
+    float: left;
+    font-family: 'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif;
+    margin-left: 10%;
+}
+.headset{
+	width: 50%;
+	margin-bottom: 10%;
+	margin-top: -10%;
+	float: right;
+}
+.ds{
+	color: #363636;
+    font-size: .813em;
+    /*float: right;*/
+    font-family: 'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif;
+    margin-right: 20%;
+   text-align: center;
+   margin-top: 30%;
+   margin-left: 35%;
+   
+
+}
+.ds4{
+	width: 50%;
+	margin-bottom: 10%;
+	margin-top: -10%;
+	float: left;
+	/*margin-left: 20%;*/
+}
+.cont{
+	    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    color: #363636;
+    text-align: center;
+     margin-bottom: -30%;
+   margin-left: 40%;
+   /*padding-top: 5%;*/
+   margin-top: 40%;
+}
+.psvr{
+	color: #363636;
+    font-size: 1.17em;
+    font-family: 'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif;
+    margin-top: 40%;
+}
+.vrintro{
+	color: #363636;
+    font-size: .813em;
+}
+.vrimg{
+	
+	width: 100vh;
+	padding-top: 3%;
+	margin-left: 40%;
+	padding-bottom: 40%;
+}
+.ndintro {
+	text-decoration: none;
+	list-style: none;
+	color: White;
+	display: table;
+	font-family:'SST W01 Roman','SST W02 Roman','SST W10 Roman','SST W15 Roman',Arial,Helvetica,sans-serif; 
+    font-size: .813em;
+    background: url(http://mapinstitute.org/data/wallpapers/126/im58872990.png) no-repeat 50% 50%;
+    background-size: cover;
+    font-weight: normal;
+    margin-top: -30%;
+    height: 100%;
+    width: 100%;
+    
+}
+.ndintro .info {
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+
+@media screen and (max-width: 480px) {
+	
+}
